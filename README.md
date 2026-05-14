@@ -62,14 +62,17 @@ data-warehouse-project/
 ├── docs/                               # Project documentation and architecture details
 │   ├── data_architecture.png           # The project's architecture
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.png                   # The data flow diagram
-│   ├── data_models.png                 # Data model (star schema)
+│   ├── data_flow.png                   # Data flow diagram
+|   ├── data_integration.png            # Data integration model
+│   ├── data_models.png                 # Data model diagram (star schema)
 │   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
 │   ├── silver/                         # Scripts for cleaning and transforming data
 │   ├── gold/                           # Scripts for creating analytical models
+│   ├── exploratory data analysis/      # Scripts for exploratory data analysis
+│   ├── advanced data analytics/        # Scripts for advanced data analysis
 │
 ├── tests/                              # Test scripts and quality files
 │
